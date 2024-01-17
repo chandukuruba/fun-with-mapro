@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Draggable Images</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+</head>
+<body>
+
+    <div class="back">
+        <p class="title">OUR BLOGS</p>
+        <h2 class="title">Fun with Mapro</h2>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="slide-container">
+                        <div class="slide-image-container">
+                            <img class="slide-image" src="https://www.mapro.com/cdn/shop/articles/mix_fruit_600x400-01.jpg?v=1704283115&width=533" alt="mapro"/>
+                        </div>
+                        <div class="slide-content-container">
+                            <div class="slide-information">
+                                <p>Preperation . 5 Mintes </p>
+                                <p>03 January 2024</p>
+                            </div>
+                            <h3>Mix Fruit Recipes</h3>
+                            <div class="content-container">
+                                <p>
+                                    Classic toast: Spread Mapro Mix Fruit Jam on toast for a quick and easy breakfast or snack. You can use any type of bread you like, but sourdough or wheat bread pairs well with the jam's sweetness and tartness.
+                                </p>
+                                <button>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slide-container">
+                        <div class="slide-image-container">
+                            <img class="slide-image" src="https://www.mapro.com/cdn/shop/articles/Whole-Strawberry-Recipe-2.png?v=1701949003&width=533" alt="mapro"/>
+                        </div>
+                        <div class="slide-content-container color__green">
+                            <div class="slide-information">
+                                <p>Preperation . 5 Mintes </p>
+                                <p>07 December 2023</p>
+                            </div>
+                            <h3>Mix Fruit Recipes</h3>
+                            <div class="content-container">
+                                <p>
+                                    Classic toast: Spread Mapro Mix Fruit Jam on toast for a quick and easy breakfast or snack. You can use any type of bread you like, but sourdough or wheat bread pairs well with the jam's sweetness and tartness.
+                                </p>
+                                <button>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slide-container">
+                        <div class="slide-image-container">
+                            <img class="slide-image" src="https://www.mapro.com/cdn/shop/articles/Blueberry-Recipe-1.png?v=1700845603&width=533" alt="mapro"/>
+                        </div>
+                        <div class="slide-content-container">
+                            <div class="slide-information">
+                                <p>Preperation . 5 Mintes </p>
+                                <p>03 January 2024</p>
+                            </div>
+                            <h3>Mix Fruit Recipes</h3>
+                            <div class="content-container">
+                                <p>
+                                    Classic toast: Spread Mapro Mix Fruit Jam on toast for a quick and easy breakfast or snack. You can use any type of bread you like, but sourdough or wheat bread pairs well with the jam's sweetness and tartness.
+                                </p>
+                                <button>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="slide-container">
+                        <div class="slide-image-container">
+                            <img class="slide-image" src="https://www.mapro.com/cdn/shop/articles/mix_fruit_600x400-01.jpg?v=1704283115&width=533" alt="mapro"/>
+                        </div>
+                        <div class="slide-content-container color__green">
+                            <div class="slide-information">
+                                <p>Preperation . 5 Mintes </p>
+                                <p>03 January 2024</p>
+                            </div>
+                            <h3>Mix Fruit Recipes</h3>
+                            <div class="content-container">
+                                <p>
+                                    Classic toast: Spread Mapro Mix Fruit Jam on toast for a quick and easy breakfast or snack. You can use any type of bread you like, but sourdough or wheat bread pairs well with the jam's sweetness and tartness.
+                                </p>
+                                <button>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                  </li>
+              </ul>
+        </div>
+      </section>
+      </div>
+
+
+      <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+          var splide = new Splide( '.splide' );
+          splide.mount();
+        } );
+
+        Splide.defaults = {
+        type   : 'slide',
+        perPage: 3,
+        perMove:1,
+        fixedWidth:"33.33%",
+        pagination:false,
+        breakpoints: {
+		768: {
+			perPage: 1,
+            fixedWidth:"90%",
+		},
+            },
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+p[class="title"]{
+    margin-left: 2%;
+    color: #5749a6;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+h2[class="title"]{
+    margin-left: 2%;
+    font-size: calc(3rem + 1vw);
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+}
+
+.back{
+    margin-top: 10%;
+}
+
+.slide-container{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.slide-container:hover{
+    .slide-image{
+        transform: scale(1.01);
+    }
+}
+
+.slide-content-container{
+    background-color: #e7f1ff;
+    height: 100%;
+    padding: 30px 20px;
+    z-index: -1;
+    position: relative;
+    transform: translateY(-16%);
+    border-radius: 8%;
+}
+.color__green{
+    background-color: #eaf5df;
+}
+
+
+.slide-image{
+    width: 100%;
+    height: auto;
+    background-position: fit;
+    border-radius: 4.5%;
+}
+
+.slide-image-container{
+    width: 80%;
+    margin: 0px 20px 10px;
+    border: 10px solid white;
+    border-radius: 8%;
+}
+
+.slide-information{
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    margin-top: 10px;
+}
+
+.slide-information p:first-child{
+    font-family: sans-serif ;
+    font-weight: 650;
+    font-style: normal;
+    color: #6f7070;
+    font-size: 13px;
+}
+
+.slide-information p:last-child{
+    font-family: sans-serif;
+    font: 400;
+    font-size: 14px;
+    color: #a3a8a8;
+}
+
+@media screen and (max-width:768px){
+    h2[class="title"]{
+        margin: 0px 0px 0px 2%;
+        font-size: 30px;
+    }
+    .slide-image-container{
+        width: 80%;
+    }
+    .slide-information p{
+        font-size: 10px;
+    }
+}
+
+h3{
+    margin: 10px 0px 20px 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.content-container p{
+    font-family: sans-serif;
+    font-weight:200;
+    font-size: 16px;
+    word-spacing: .5px;
+    line-height: 20px;
+    color: #545555;
+
+}
+
+button{
+    background-color: transparent;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #545555;
+    border: none;
+    cursor: pointer;
+}
