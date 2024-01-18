@@ -55,6 +55,7 @@ h2[class="title"]{
     height: auto;
     background-position: fit;
     border-radius: 4.5%;
+    transition: all .5s;
 }
 
 .slide-image-container{
